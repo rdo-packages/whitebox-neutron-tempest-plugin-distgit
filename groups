@@ -1,3 +1,9 @@
-# UUID                                  	Group Name
-#
+# UUID Group Name
+global:Registered-Users	Registered Users
+4572c517702492251ad622a289176552a8acbbb2	rdo-superusers
+6ddfecad023c6f4fa3ac8c4d2583c502ea675a73	Service Users
+401cf37bee35d1c809d4d957e55f2a304f8eed69	rdo-provenpackagers
+962b810054c1df679ab993b2f7053c61a4e3eba4	openstack/whitebox-neutron-tempest-plugin-core
+global:Anonymous-Users	Anonymous Users
+fde30583bd901b200bf33fd45d92b2a4e78d08b0	openstack/whitebox-neutron-tempest-plugin-ptl
 05a678d3d4a168e149d5e8a0063bbd1b1c5526da	Administrators
