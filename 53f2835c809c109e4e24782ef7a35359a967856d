@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "87dfd950_6a6599e7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 10
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2022-11-09T14:23:35Z",
+      "side": 1,
+      "message": "package approved https://bugzilla.redhat.com/show_bug.cgi?id\u003d2129019",
+      "revId": "53f2835c809c109e4e24782ef7a35359a967856d",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "117abe5c_83c22f4f",
+        "filename": "python-whitebox-neutron-tests-tempest.spec",
+        "patchSetId": 10
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2022-11-09T14:23:35Z",
+      "side": 1,
+      "message": "can be enabled once docs are available.",
+      "range": {
+        "startLine": 5,
+        "startChar": 17,
+        "endLine": 5,
+        "endChar": 18
+      },
+      "revId": "53f2835c809c109e4e24782ef7a35359a967856d",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
