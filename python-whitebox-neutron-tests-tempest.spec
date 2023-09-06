@@ -45,12 +45,14 @@ Summary: %{summary}
 BuildRequires:  python3-devel
 BuildRequires:  python3-pbr
 BuildRequires:  python3-setuptools
+BuildRequires:  python3-pip
 
 Requires:   python3-subunit >= 0.0.18
 Requires:   python3-testtools >= 0.9.30
-Requires:   python3-cryptography >= 2.5
+Requires:   python3-dpkt >= 1.9.2
 Requires:   python3-netaddr
 Requires:   python3-netifaces
+Requires:   python3-pyroute2 >= 0.6.6
 
 %description -n python3-whitebox-neutron-tests-tempest
 %{common_desc}
@@ -90,6 +92,13 @@ rm -rf doc/build/html/.{doctrees,buildinfo}
 
 %install
 %{py3_install}
+
+mkdir -p %{buildroot}%{python3_sitelib}/dpkt
+%{__python3} -m venv dpkt-venv
+source dpkt-venv/bin/activate
+pip install dpkt
+deactivate
+rm -rf dpkt-venv
 
 %files -n python3-whitebox-neutron-tests-tempest
 %license LICENSE
