@@ -34,6 +34,7 @@ BuildRequires:  /usr/bin/gpgv2
 
 BuildRequires:  git-core
 BuildRequires:  openstack-macros
+BuildRequires:  python3-dpkt >= 1.8.8
 
 %description
 %{common_desc}
@@ -48,9 +49,10 @@ BuildRequires:  python3-setuptools
 
 Requires:   python3-subunit >= 0.0.18
 Requires:   python3-testtools >= 0.9.30
-Requires:   python3-cryptography >= 2.5
+Requires:   python3-dpkt >= 1.8.8
 Requires:   python3-netaddr
 Requires:   python3-netifaces
+Requires:   python3-pyroute2 >= 0.6.6
 
 %description -n python3-whitebox-neutron-tests-tempest
 %{common_desc}
