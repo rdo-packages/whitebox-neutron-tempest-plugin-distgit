@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b533a98c_5cc53c07",
+        "filename": "python-whitebox-neutron-tests-tempest.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 534
+      },
+      "writtenOn": "2023-09-07T06:11:58Z",
+      "side": 1,
+      "message": "You need to check that one as there is currently error: \"No matching package to install: \u0027python3-dpkt \u003e\u003d 1.8.8\u0027\" during package build",
+      "revId": "b9bc015cc0426927cd6804a30906cda198decf35",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
