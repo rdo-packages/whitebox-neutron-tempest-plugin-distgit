@@ -1,0 +1,9 @@
+Code-Review+2: Sławek Kapłoński <skaplons@redhat.com>
+Verified+2: Zuul CI <zuul@review.rdoproject.org>
+Code-Review+2: Maor Blaustein <mblue@redhat.com>
+Workflow+1: Maor Blaustein <mblue@redhat.com>
+Submitted-by: Zuul CI <zuul@review.rdoproject.org>
+Submitted-at: Thu, 05 Oct 2023 07:47:17 +0000
+Reviewed-on: https://review.rdoproject.org/r/c/openstack/whitebox-neutron-tempest-plugin-distgit/+/49876
+Project: openstack/whitebox-neutron-tempest-plugin-distgit
+Branch: refs/heads/rpm-master
