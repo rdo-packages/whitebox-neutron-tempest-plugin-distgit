@@ -46,12 +46,16 @@ BuildRequires:  python3-devel
 BuildRequires:  python3-pbr
 BuildRequires:  python3-setuptools
 
-Requires:   python3-subunit >= 0.0.18
-Requires:   python3-testtools >= 0.9.30
+Requires:   python3-coverage > 4.4
+Requires:   python3-oslotest >= 3.2.0
+Requires:   python3-stestr >= 1.0.0
+Requires:   python3-subunit >= 1.0.0
+Requires:   python3-testtools >= 2.2.0
 Requires:   python3-scapy
 Requires:   python3-netaddr
 Requires:   python3-netifaces
 Requires:   python3-pyroute2 >= 0.6.6
+Requires:   python3-neutron-tempest-plugin
 
 %description -n python3-whitebox-neutron-tests-tempest
 %{common_desc}
@@ -60,8 +64,9 @@ Requires:   python3-pyroute2 >= 0.6.6
 %package -n python-whitebox-neutron-tests-tempest-doc
 Summary:        Documentation for python-whitebox-neutron-tests-tempest
 
-BuildRequires:  python3-sphinx
-BuildRequires:  python3-openstackdocstheme
+BuildRequires:  python3-sphinx > 2.1.0
+BuildRequires:  python3-openstackdocstheme >= 1.20.0
+BuildRequires:  python3-reno >= 1.20.0
 
 %description -n python-whitebox-neutron-tests-tempest-doc
 It contains the documentation for the Whitebox Neutron Tempest plugin.
