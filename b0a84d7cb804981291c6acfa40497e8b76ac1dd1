@@ -1,0 +1,10 @@
+Code-Review+1: Candido Campos Rivas <ccamposr@redhat.com>
+Code-Review+2: Sławek Kapłoński <skaplons@redhat.com>
+Verified+2: Zuul CI <zuul@review.rdoproject.org>
+Code-Review+2: Eduardo Olivares <eolivare@redhat.com>
+Workflow+1: Maor Blaustein <mblue@redhat.com>
+Submitted-by: Zuul CI <zuul@review.rdoproject.org>
+Submitted-at: Thu, 05 Oct 2023 15:19:57 +0000
+Reviewed-on: https://review.rdoproject.org/r/c/openstack/whitebox-neutron-tempest-plugin-distgit/+/50331
+Project: openstack/whitebox-neutron-tempest-plugin-distgit
+Branch: refs/heads/rpm-master
