@@ -61,6 +61,11 @@ Requires:   python3-testtools >= 0.9.30
 Requires:   python3-cryptography >= 2.5
 Requires:   python3-netaddr
 Requires:   python3-netifaces
+Requires:   python3-pyroute2 >= 0.6.6
+Requires:   python3-stestr >= 1.0.0
+%if 0%{?rhel} > 8
+Requires:   python3-scapy
+%endif
 
 %description -n python3-whitebox-neutron-tests-tempest
 %{common_desc}
