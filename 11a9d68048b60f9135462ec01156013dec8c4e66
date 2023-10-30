@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "68a3dd51_36ce85b1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 783
+      },
+      "writtenOn": "2023-10-30T11:13:53Z",
+      "side": 1,
+      "message": "I hope this backport will fix wallaby centos 9 gate for whitebox patch:\nhttps://review.opendev.org/c/x/whitebox-neutron-tempest-plugin/+/892136",
+      "revId": "11a9d68048b60f9135462ec01156013dec8c4e66",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
