@@ -33,6 +33,24 @@
       "message": "@Maor, Please back this patch to bobcat-rdo, antelope-rdo,zed-rdo, xena-rdo and yoga-rdo Then we can merge this.\n\nWe need to sync other branches also. Setting - workflow on this.",
       "revId": "11a9d68048b60f9135462ec01156013dec8c4e66",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "739874b7_0e1d7cc1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2023-10-30T12:53:29Z",
+      "side": 1,
+      "message": "Note that we have, exceptionally, backported this to wallaby only from antelope (when it was added) and bobcat should have automatic deps, so this should only be in antelope-rdo and wallaby-rdo",
+      "parentUuid": "04d61fd4_67a822cf",
+      "revId": "11a9d68048b60f9135462ec01156013dec8c4e66",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
