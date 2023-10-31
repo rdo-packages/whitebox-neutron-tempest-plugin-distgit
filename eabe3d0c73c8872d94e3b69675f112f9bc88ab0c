@@ -16,6 +16,29 @@
       "message": "Deps bumps looks for antelope",
       "revId": "eabe3d0c73c8872d94e3b69675f112f9bc88ab0c",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "187a0e18_441fcaa7",
+        "filename": "python-whitebox-neutron-tests-tempest.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2023-10-31T08:22:38Z",
+      "side": 1,
+      "message": "Actually, the packatges in test-requirements.txt should be BuildRequires not Requires. Requires are runtime dependencies which should match what is in requirements.txt while BuildRequires are deps used at build time to build the package itself, documentation, or in some packages (not this one) to run unit tests.\n\nAre these packages required for the functionality of the plugin?",
+      "range": {
+        "startLine": 61,
+        "startChar": 0,
+        "endLine": 64,
+        "endChar": 38
+      },
+      "revId": "eabe3d0c73c8872d94e3b69675f112f9bc88ab0c",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
