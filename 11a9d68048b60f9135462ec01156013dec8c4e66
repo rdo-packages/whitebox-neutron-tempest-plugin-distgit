@@ -69,6 +69,23 @@
       "parentUuid": "739874b7_0e1d7cc1",
       "revId": "11a9d68048b60f9135462ec01156013dec8c4e66",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "73378648_2f284a7f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2023-10-31T06:56:29Z",
+      "side": 1,
+      "message": "waiting for https://review.rdoproject.org/r/c/openstack/whitebox-neutron-tempest-plugin-distgit/+/50683 to land.",
+      "revId": "11a9d68048b60f9135462ec01156013dec8c4e66",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
