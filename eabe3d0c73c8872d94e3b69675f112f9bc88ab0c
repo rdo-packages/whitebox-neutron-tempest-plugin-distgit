@@ -39,6 +39,30 @@
       },
       "revId": "eabe3d0c73c8872d94e3b69675f112f9bc88ab0c",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a40724ac_e4e59bfc",
+        "filename": "python-whitebox-neutron-tests-tempest.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 783
+      },
+      "writtenOn": "2023-10-31T13:33:46Z",
+      "side": 1,
+      "message": "I will change BuildRequires/Requires accordingly, for rpm-master/antelope/wallaby.\n\n\u003e Are these packages required for the functionality of the plugin?\n\nIt seems so, they were initially based on the dependencies of the migrated plugin:\nhttps://code.engineering.redhat.com/gerrit/plugins/gitiles/rhos-qe-tests/tempest_neutron_plugin/+/refs/heads/master/requirements.txt\nhttps://code.engineering.redhat.com/gerrit/plugins/gitiles/rhos-qe-tests/tempest_neutron_plugin/+/refs/heads/master/test-requirements.txt\n\nAnother difference is dpkt replaced by scapy.",
+      "parentUuid": "187a0e18_441fcaa7",
+      "range": {
+        "startLine": 61,
+        "startChar": 0,
+        "endLine": 64,
+        "endChar": 38
+      },
+      "revId": "eabe3d0c73c8872d94e3b69675f112f9bc88ab0c",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
