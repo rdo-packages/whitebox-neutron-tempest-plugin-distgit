@@ -110,3 +110,4 @@ rm -rf doc/build/html/.{doctrees,buildinfo}
 %endif
 
 %changelog
+# REMOVEME: error caused by commit https://opendev.org/x/whitebox-neutron-tempest-plugin/commit/383df487829e5e35935ba63d27f39e7316bcd9fb
