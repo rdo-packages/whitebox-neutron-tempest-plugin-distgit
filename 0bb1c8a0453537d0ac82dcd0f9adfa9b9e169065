@@ -16,6 +16,23 @@
       "message": "@slawek there is no generated tarball for this in https://tarballs.opendev.org/x/whitebox-neutron-tempest-plugin/ , is that expected?",
       "revId": "0bb1c8a0453537d0ac82dcd0f9adfa9b9e169065",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "57f0e99a_51d6cb87",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 141
+      },
+      "writtenOn": "2024-04-10T12:06:41Z",
+      "side": 1,
+      "message": "Also, we would need https://review.rdoproject.org/r/c/openstack/whitebox-neutron-tempest-plugin-distgit/+/52817 before merging this",
+      "revId": "0bb1c8a0453537d0ac82dcd0f9adfa9b9e169065",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
