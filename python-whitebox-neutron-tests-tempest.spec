@@ -1,4 +1,5 @@
 %{!?sources_gpg: %{!?dlrn:%global sources_gpg 1} }
+# Tarball is not being created by opendev tooling.
 %global sources_gpg 0
 %global sources_gpg_sign 0xf8675126e2411e7748dd46662fc2093e4682645f
 %global plugin whitebox-neutron-tempest-plugin
@@ -15,8 +16,8 @@ This package contains whitebox Tempest tests to cover the Neutron project. \
 Additionally it provides a plugin to automatically load these tests into Tempest.
 
 Name:       python-whitebox-neutron-tests-tempest
-Version:    0.2.0
-Release:    1%{?dist}
+Version:    0.4.0
+Release:    2%{?dist}
 Summary:    Whitebox Tempest tests related to the Neutron Project
 License:    ASL 2.0
 URL:        https://opendev.org/x/%{plugin}/
@@ -113,9 +114,14 @@ rm -rf doc/build/html/.{doctrees,buildinfo}
 %endif
 
 %changelog
+* Tue May 08 2024 Alfredo Moralejo <amoralej@redhat.com> 0.4.0-2
+- Rebuild in Bobcat
+
+* Tue May 07 2024 RDO <dev@lists.rdoproject.org> 0.4.0-1
+- Update to 0.4.0
+
 * Wed Apr 17 2024 RDO <dev@lists.rdoproject.org> 0.2.0-1
 - Update to 0.2.0
 
 * Tue Mar 26 2024 RDO <dev@lists.rdoproject.org> 0.1.0-1
 - Update to 0.1.0
-
