@@ -1,5 +1,5 @@
 %{!?sources_gpg: %{!?dlrn:%global sources_gpg 1} }
-%global sources_gpg_sign 0xa7475c5f2122fec3f90343223fe3bf5aad1080e4
+%global sources_gpg_sign 0xf8675126e2411e7748dd46662fc2093e4682645f
 %global plugin whitebox-neutron-tempest-plugin
 %global module whitebox_neutron_tempest_plugin
 %global with_doc 0
@@ -12,8 +12,8 @@ This package contains whitebox Tempest tests to cover the Neutron project. \
 Additionally it provides a plugin to automatically load these tests into Tempest.
 
 Name:       python-whitebox-neutron-tests-tempest
-Version:    XXX
-Release:    XXX
+Version:    0.4.0
+Release:    1%{?dist}
 Summary:    Whitebox Tempest tests related to the Neutron Project
 License:    ASL 2.0
 URL:        https://opendev.org/x/%{plugin}/
@@ -105,3 +105,6 @@ rm -rf doc/build/html/.{doctrees,buildinfo}
 %endif
 
 %changelog
+* Tue May 07 2024 RDO <dev@lists.rdoproject.org> 0.4.0-1
+- Update to 0.4.0
+
