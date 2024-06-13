@@ -21,7 +21,7 @@ Summary:    Whitebox Tempest tests related to the Neutron Project
 License:    ASL 2.0
 URL:        https://opendev.org/x/%{plugin}/
 
-Source0:    http://opendev.org/x/%{plugin}/archive/%{upstream_version}.tar.gz#/%{module}-%{shortcommit}.tar.gz
+Source0:    http://opendev.org/x/%{plugin}/archive/%{upstream_version}.tar.gz#/%{module}-%{upstream_version}.tar.gz
 # Required for tarball sources verification
 %if 0%{?sources_gpg} == 1
 Source101:        http://tarballs.opendev.org/x/%{plugin}/%{plugin}-%{upstream_version}.tar.gz.asc
