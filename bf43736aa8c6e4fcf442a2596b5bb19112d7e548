@@ -34,6 +34,23 @@
       "parentUuid": "13857c68_46d380d8",
       "revId": "bf43736aa8c6e4fcf442a2596b5bb19112d7e548",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b6525c50_9ad8d896",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 141
+      },
+      "writtenOn": "2024-06-14T10:02:26Z",
+      "side": 1,
+      "message": "In the meantime the package was bumped to 0.5.0, so this change can be abandoned:\n\nhttps://review.rdoproject.org/r/c/openstack/whitebox-neutron-tempest-plugin-distgit/+/53364\nhttps://review.rdoproject.org/r/c/openstack/whitebox-neutron-tempest-plugin-distgit/+/53363\nhttps://review.rdoproject.org/r/c/openstack/whitebox-neutron-tempest-plugin-distgit/+/53362",
+      "revId": "bf43736aa8c6e4fcf442a2596b5bb19112d7e548",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
