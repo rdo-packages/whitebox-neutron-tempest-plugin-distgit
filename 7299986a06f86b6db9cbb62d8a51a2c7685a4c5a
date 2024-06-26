@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8a728c33_8319a105",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2024-06-26T11:59:45Z",
+      "side": 1,
+      "message": "as we merged caracal with Release equal to 1 [1] and bobcat with release 2 [2] , we need to bump antelope [3] to 3\n\n[1] https://review.rdoproject.org/r/c/openstack/whitebox-neutron-tempest-plugin-distgit/+/53557\n[2] https://review.rdoproject.org/r/c/openstack/whitebox-neutron-tempest-plugin-distgit/+/53558\n[3] https://review.rdoproject.org/r/c/openstack/whitebox-neutron-tempest-plugin-distgit/+/53559",
+      "revId": "7299986a06f86b6db9cbb62d8a51a2c7685a4c5a",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
