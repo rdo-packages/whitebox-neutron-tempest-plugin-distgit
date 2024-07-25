@@ -1,3 +1,4 @@
+# DNM
 %{!?sources_gpg: %{!?dlrn:%global sources_gpg 1} }
 %global sources_gpg_sign 0xa7475c5f2122fec3f90343223fe3bf5aad1080e4
 %global plugin whitebox-neutron-tempest-plugin
