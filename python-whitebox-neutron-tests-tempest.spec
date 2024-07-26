@@ -49,7 +49,6 @@ BuildRequires:  python3-devel
 BuildRequires:  python3-pbr
 BuildRequires:  python3-setuptools
 
-Requires:   python3-coverage > 4.4
 Requires:   python3-oslotest >= 3.2.0
 Requires:   python3-stestr >= 1.0.0
 Requires:   python3-subunit >= 1.0.0
