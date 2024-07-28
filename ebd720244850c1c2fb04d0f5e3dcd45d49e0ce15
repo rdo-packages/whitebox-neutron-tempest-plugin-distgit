@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "10c091e6_e7abd44a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 783
+      },
+      "writtenOn": "2024-07-28T12:53:40Z",
+      "side": 1,
+      "message": "right, it is used only in the dependency plugin \u0027neutron-tempest-plugin\u0027:\nhttps://opendev.org/openstack/neutron-tempest-plugin/search?q\u003dcoverage",
+      "revId": "ebd720244850c1c2fb04d0f5e3dcd45d49e0ce15",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
