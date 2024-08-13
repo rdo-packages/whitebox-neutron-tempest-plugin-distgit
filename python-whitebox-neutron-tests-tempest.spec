@@ -1,9 +1,12 @@
 %{!?sources_gpg: %{!?dlrn:%global sources_gpg 1} }
+%global sources_gpg 0
 %global sources_gpg_sign 0xa7475c5f2122fec3f90343223fe3bf5aad1080e4
 %global plugin whitebox-neutron-tempest-plugin
 %global module whitebox_neutron_tempest_plugin
 %global with_doc 0
 
+%{?dlrn: %global tarsources %{module}-%{upstream_version}}
+%{!?dlrn: %global tarsources %{plugin}}
 
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 
@@ -12,13 +15,13 @@ This package contains whitebox Tempest tests to cover the Neutron project. \
 Additionally it provides a plugin to automatically load these tests into Tempest.
 
 Name:       python-whitebox-neutron-tests-tempest
-Version:    XXX
-Release:    XXX
+Version:    0.8.0
+Release:    4%{?dist}
 Summary:    Whitebox Tempest tests related to the Neutron Project
 License:    ASL 2.0
 URL:        https://opendev.org/x/%{plugin}/
 
-Source0:    http://tarballs.opendev.org/x/%{plugin}/%{plugin}-%{upstream_version}.tar.gz
+Source0:    http://opendev.org/x/%{plugin}/archive/%{upstream_version}.tar.gz#/%{module}-%{upstream_version}.tar.gz
 # Required for tarball sources verification
 %if 0%{?sources_gpg} == 1
 Source101:        http://tarballs.opendev.org/x/%{plugin}/%{plugin}-%{upstream_version}.tar.gz.asc
@@ -76,7 +79,7 @@ It contains the documentation for the Whitebox Neutron Tempest plugin.
 %if 0%{?sources_gpg} == 1
 %{gpgverify}  --keyring=%{SOURCE102} --signature=%{SOURCE101} --data=%{SOURCE0}
 %endif
-%autosetup -n %{module}-%{upstream_version} -S git
+%autosetup -n %{tarsources} -S git
 
 # Let's handle dependencies ourseleves
 %py_req_cleanup
@@ -109,3 +112,50 @@ rm -rf doc/build/html/.{doctrees,buildinfo}
 %endif
 
 %changelog
+* Thu Sep 26 2024 Joel Capitao <jcapiao@redhat.com> 0.9.0-4
+- Rebuild in Damatian
+
+* Wed Aug 14 2024 Alfredo Moralejo <amoralej@redhat.com> 0.9.0-3
+- Rebuild in Caracal
+
+* Wed Aug 14 2024 Alfredo Moralejo <amoralej@redhat.com> 0.9.0-2
+- Rebuild in Bobcat
+
+* Tue Aug 13 2024 RDO <dev@lists.rdoproject.org> 0.9.0-1
+- Update to 0.9.0
+
+* Tue Jul 30 2024 Yatin Karel <ykarel@redhat.com> 0.8.0-3
+- Rebuild in Caracal
+
+* Tue Jul 30 2024 Yatin Karel <ykarel@redhat.com> 0.8.0-2
+- Rebuild in Bobcat
+
+* Mon Jul 29 2024 RDO <dev@lists.rdoproject.org> 0.8.0-1
+- Update to 0.8.0
+
+* Thu Jul 11 2024 Luigi Toscano <ltoscano@redhat.com> 0.7.1-3
+- Rebuild in Caracal
+
+* Thu Jul 11 2024 Luigi Toscano <ltoscano@redhat.com> 0.7.1-2
+- Rebuild in Bobcat
+
+* Thu Jul 11 2024 RDO <dev@lists.rdoproject.org> 0.7.1-1
+- Update to 0.7.1
+
+* Fri Jun 21 2024 RDO <dev@lists.rdoproject.org> 0.6.0-1
+- Update to 0.6.0
+
+* Thu Jun 13 2024 RDO <dev@lists.rdoproject.org> 0.5.0-3
+- Rebuild in Caracal
+
+* Fri May 31 2024 RDO <dev@lists.rdoproject.org> 0.5.0-2
+- Rebuild in Bobcat
+
+* Fri May 31 2024 RDO <dev@lists.rdoproject.org> 0.5.0-1
+- Update to 0.5.0
+
+* Wed Apr 17 2024 RDO <dev@lists.rdoproject.org> 0.2.0-1
+- Update to 0.2.0
+
+* Tue Mar 26 2024 RDO <dev@lists.rdoproject.org> 0.1.0-1
+- Update to 0.1.0
