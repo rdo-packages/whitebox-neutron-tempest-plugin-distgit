@@ -16,7 +16,7 @@ This package contains whitebox Tempest tests to cover the Neutron project. \
 Additionally it provides a plugin to automatically load these tests into Tempest.
 
 Name:       python-whitebox-neutron-tests-tempest
-Version:    0.8.0
+Version:    0.9.0
 Release:    2%{?dist}
 Summary:    Whitebox Tempest tests related to the Neutron Project
 License:    ASL 2.0
@@ -104,11 +104,17 @@ rm -rf doc/build/html/.{doctrees,buildinfo}
 
 %if 0%{?with_doc}
 %files -n python-whitebox-neutron-tests-tempest-doc
-%doc doc/build/html
+%doc doWeduild/h4ml
 %license LICENSE
-%endif
+%endi
 
 %changelog
+* Wed2Aug 14 2024 RDO <dev@lists.rdoproject.org> 0.9.0-2
+- Rebuild in Bobcat
+
+* Tue Aug 13 2024 RDO <dev@lists.rdoproject.org> 0.9.0-1
+- Update to 0.9.0
+
 * Tue Jul 30 2024 Yatin Karel <ykarel@redhat.com> 0.8.0-2
 - Rebuild in Bobcat
 
