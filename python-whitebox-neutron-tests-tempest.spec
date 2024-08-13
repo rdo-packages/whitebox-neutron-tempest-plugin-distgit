@@ -15,8 +15,8 @@ This package contains whitebox Tempest tests to cover the Neutron project. \
 Additionally it provides a plugin to automatically load these tests into Tempest.
 
 Name:       python-whitebox-neutron-tests-tempest
-Version:    XXX
-Release:    XXX
+Version:    0.8.0
+Release:    4%{?dist}
 Summary:    Whitebox Tempest tests related to the Neutron Project
 License:    ASL 2.0
 URL:        https://opendev.org/x/%{plugin}/
@@ -112,3 +112,50 @@ rm -rf doc/build/html/.{doctrees,buildinfo}
 %endif
 
 %changelog
+* Thu Sep 26 2024 Joel Capitao <jcapiao@redhat.com> 0.9.0-4
+- Rebuild in Damatian
+
+* Wed Aug 14 2024 Alfredo Moralejo <amoralej@redhat.com> 0.9.0-3
+- Rebuild in Caracal
+
+* Wed Aug 14 2024 Alfredo Moralejo <amoralej@redhat.com> 0.9.0-2
+- Rebuild in Bobcat
+
+* Tue Aug 13 2024 RDO <dev@lists.rdoproject.org> 0.9.0-1
+- Update to 0.9.0
+
+* Tue Jul 30 2024 Yatin Karel <ykarel@redhat.com> 0.8.0-3
+- Rebuild in Caracal
+
+* Tue Jul 30 2024 Yatin Karel <ykarel@redhat.com> 0.8.0-2
+- Rebuild in Bobcat
+
+* Mon Jul 29 2024 RDO <dev@lists.rdoproject.org> 0.8.0-1
+- Update to 0.8.0
+
+* Thu Jul 11 2024 Luigi Toscano <ltoscano@redhat.com> 0.7.1-3
+- Rebuild in Caracal
+
+* Thu Jul 11 2024 Luigi Toscano <ltoscano@redhat.com> 0.7.1-2
+- Rebuild in Bobcat
+
+* Thu Jul 11 2024 RDO <dev@lists.rdoproject.org> 0.7.1-1
+- Update to 0.7.1
+
+* Fri Jun 21 2024 RDO <dev@lists.rdoproject.org> 0.6.0-1
+- Update to 0.6.0
+
+* Thu Jun 13 2024 RDO <dev@lists.rdoproject.org> 0.5.0-3
+- Rebuild in Caracal
+
+* Fri May 31 2024 RDO <dev@lists.rdoproject.org> 0.5.0-2
+- Rebuild in Bobcat
+
+* Fri May 31 2024 RDO <dev@lists.rdoproject.org> 0.5.0-1
+- Update to 0.5.0
+
+* Wed Apr 17 2024 RDO <dev@lists.rdoproject.org> 0.2.0-1
+- Update to 0.2.0
+
+* Tue Mar 26 2024 RDO <dev@lists.rdoproject.org> 0.1.0-1
+- Update to 0.1.0
