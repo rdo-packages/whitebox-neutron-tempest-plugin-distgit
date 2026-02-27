@@ -159,3 +159,4 @@ rm -rf doc/build/html/.{doctrees,buildinfo}
 
 * Tue Mar 26 2024 RDO <dev@lists.rdoproject.org> 0.1.0-1
 - Update to 0.1.0
+# REMOVEME: error caused by commit https://opendev.org/x/whitebox-neutron-tempest-plugin/commit/acdf1bbfb4d442f952b59a53525ffa1b36ccb586
